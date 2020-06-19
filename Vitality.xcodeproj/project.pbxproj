@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443A9F6FC281E055FC52C97D /* Pods_Vitality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B86966F1B42E8D64AB65A55 /* Pods_Vitality.framework */; };
 		E16AD4E2249C8F2700BEF638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */; };
 		E16AD4E4249C8F2700BEF638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E3249C8F2700BEF638 /* ViewController.swift */; };
 		E16AD4E7249C8F2700BEF638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16AD4E5249C8F2700BEF638 /* Main.storyboard */; };
 		E16AD4EA249C8F2700BEF638 /* Vitality.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E8249C8F2700BEF638 /* Vitality.xcdatamodeld */; };
 		E16AD4EC249C8F3100BEF638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16AD4EB249C8F3100BEF638 /* Assets.xcassets */; };
 		E16AD4EF249C8F3100BEF638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16AD4ED249C8F3100BEF638 /* LaunchScreen.storyboard */; };
+		E1CE634D249D1C5000DB918D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CE634C249D1C5000DB918D /* HealthKit.framework */; };
+		E1CE634F249D1CB000DB918D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CE634E249D1CB000DB918D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B86966F1B42E8D64AB65A55 /* Pods_Vitality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vitality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A9477AF26381CB5ED90745 /* Pods-Vitality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitality.debug.xcconfig"; path = "Target Support Files/Pods-Vitality/Pods-Vitality.debug.xcconfig"; sourceTree = "<group>"; };
+		E150A0BDE89F6F48FAB2BEF6 /* Pods-Vitality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitality.release.xcconfig"; path = "Target Support Files/Pods-Vitality/Pods-Vitality.release.xcconfig"; sourceTree = "<group>"; };
 		E16AD4DE249C8F2700BEF638 /* Vitality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vitality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16AD4E3249C8F2700BEF638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,9 @@
 		E16AD4EB249C8F3100BEF638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E16AD4EE249C8F3100BEF638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E16AD4F0249C8F3100BEF638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CE634A249D1C5000DB918D /* Vitality.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vitality.entitlements; sourceTree = "<group>"; };
+		E1CE634C249D1C5000DB918D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		E1CE634E249D1CB000DB918D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +40,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CE634F249D1CB000DB918D /* MapKit.framework in Frameworks */,
+				E1CE634D249D1C5000DB918D /* HealthKit.framework in Frameworks */,
+				443A9F6FC281E055FC52C97D /* Pods_Vitality.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D5DD9215C64A2B2874C344F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90A9477AF26381CB5ED90745 /* Pods-Vitality.debug.xcconfig */,
+				E150A0BDE89F6F48FAB2BEF6 /* Pods-Vitality.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E16AD4D5249C8F2700BEF638 = {
 			isa = PBXGroup;
 			children = (
 				E16AD4E0249C8F2700BEF638 /* Vitality */,
 				E16AD4DF249C8F2700BEF638 /* Products */,
+				E1CE634B249D1C5000DB918D /* Frameworks */,
+				D5DD9215C64A2B2874C344F1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +80,7 @@
 		E16AD4E0249C8F2700BEF638 /* Vitality */ = {
 			isa = PBXGroup;
 			children = (
+				E1CE634A249D1C5000DB918D /* Vitality.entitlements */,
 				E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */,
 				E16AD4E3249C8F2700BEF638 /* ViewController.swift */,
 				E16AD4E5249C8F2700BEF638 /* Main.storyboard */,
@@ -67,6 +92,16 @@
 			path = Vitality;
 			sourceTree = "<group>";
 		};
+		E1CE634B249D1C5000DB918D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1CE634E249D1CB000DB918D /* MapKit.framework */,
+				E1CE634C249D1C5000DB918D /* HealthKit.framework */,
+				2B86966F1B42E8D64AB65A55 /* Pods_Vitality.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16AD4F3249C8F3100BEF638 /* Build configuration list for PBXNativeTarget "Vitality" */;
 			buildPhases = (
+				2EA5E0CB77A4DEC506B96309 /* [CP] Check Pods Manifest.lock */,
 				E16AD4DA249C8F2700BEF638 /* Sources */,
 				E16AD4DB249C8F2700BEF638 /* Frameworks */,
 				E16AD4DC249C8F2700BEF638 /* Resources */,
+				38C83105033223DF91746E12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +169,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EA5E0CB77A4DEC506B96309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vitality-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C83105033223DF91746E12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vitality/Pods-Vitality-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vitality/Pods-Vitality-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vitality/Pods-Vitality-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E16AD4DA249C8F2700BEF638 /* Sources */ = {
@@ -284,8 +363,10 @@
 		};
 		E16AD4F4249C8F3100BEF638 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A9477AF26381CB5ED90745 /* Pods-Vitality.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Vitality/Vitality.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9L3H2UHAQ;
 				INFOPLIST_FILE = Vitality/Info.plist;
@@ -302,8 +383,10 @@
 		};
 		E16AD4F5249C8F3100BEF638 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E150A0BDE89F6F48FAB2BEF6 /* Pods-Vitality.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Vitality/Vitality.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9L3H2UHAQ;
 				INFOPLIST_FILE = Vitality/Info.plist;
