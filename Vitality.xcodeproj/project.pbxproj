@@ -3,19 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		443A9F6FC281E055FC52C97D /* Pods_Vitality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B86966F1B42E8D64AB65A55 /* Pods_Vitality.framework */; };
 		E16AD4E2249C8F2700BEF638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */; };
-		E16AD4E4249C8F2700BEF638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E3249C8F2700BEF638 /* ViewController.swift */; };
+		E16AD4E4249C8F2700BEF638 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E3249C8F2700BEF638 /* LoginController.swift */; };
 		E16AD4E7249C8F2700BEF638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16AD4E5249C8F2700BEF638 /* Main.storyboard */; };
 		E16AD4EA249C8F2700BEF638 /* Vitality.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E8249C8F2700BEF638 /* Vitality.xcdatamodeld */; };
 		E16AD4EC249C8F3100BEF638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16AD4EB249C8F3100BEF638 /* Assets.xcassets */; };
 		E16AD4EF249C8F3100BEF638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16AD4ED249C8F3100BEF638 /* LaunchScreen.storyboard */; };
 		E1CE634D249D1C5000DB918D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CE634C249D1C5000DB918D /* HealthKit.framework */; };
 		E1CE634F249D1CB000DB918D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CE634E249D1CB000DB918D /* MapKit.framework */; };
+		E1F6C22224A19BF400CC4E8A /* LibraryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6C22124A19BF400CC4E8A /* LibraryCollectionViewController.swift */; };
+		E1F6C22424A1A3F200CC4E8A /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6C22324A1A3F200CC4E8A /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +26,7 @@
 		E150A0BDE89F6F48FAB2BEF6 /* Pods-Vitality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitality.release.xcconfig"; path = "Target Support Files/Pods-Vitality/Pods-Vitality.release.xcconfig"; sourceTree = "<group>"; };
 		E16AD4DE249C8F2700BEF638 /* Vitality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vitality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E16AD4E3249C8F2700BEF638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E16AD4E3249C8F2700BEF638 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		E16AD4E6249C8F2700BEF638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E16AD4E9249C8F2700BEF638 /* Vitality.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vitality.xcdatamodel; sourceTree = "<group>"; };
 		E16AD4EB249C8F3100BEF638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,6 +35,8 @@
 		E1CE634A249D1C5000DB918D /* Vitality.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vitality.entitlements; sourceTree = "<group>"; };
 		E1CE634C249D1C5000DB918D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		E1CE634E249D1CB000DB918D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E1F6C22124A19BF400CC4E8A /* LibraryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionViewController.swift; sourceTree = "<group>"; };
+		E1F6C22324A1A3F200CC4E8A /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,6 @@
 				90A9477AF26381CB5ED90745 /* Pods-Vitality.debug.xcconfig */,
 				E150A0BDE89F6F48FAB2BEF6 /* Pods-Vitality.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,16 +83,24 @@
 		E16AD4E0249C8F2700BEF638 /* Vitality */ = {
 			isa = PBXGroup;
 			children = (
+				E1F6C22024A182A500CC4E8A /* Controllers */,
+				E18CAC9524A1032F00B157BD /* Storyboards */,
 				E1CE634A249D1C5000DB918D /* Vitality.entitlements */,
 				E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */,
-				E16AD4E3249C8F2700BEF638 /* ViewController.swift */,
-				E16AD4E5249C8F2700BEF638 /* Main.storyboard */,
 				E16AD4EB249C8F3100BEF638 /* Assets.xcassets */,
-				E16AD4ED249C8F3100BEF638 /* LaunchScreen.storyboard */,
 				E16AD4F0249C8F3100BEF638 /* Info.plist */,
 				E16AD4E8249C8F2700BEF638 /* Vitality.xcdatamodeld */,
 			);
 			path = Vitality;
+			sourceTree = "<group>";
+		};
+		E18CAC9524A1032F00B157BD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E16AD4E5249C8F2700BEF638 /* Main.storyboard */,
+				E16AD4ED249C8F3100BEF638 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 		E1CE634B249D1C5000DB918D /* Frameworks */ = {
@@ -100,6 +111,16 @@
 				2B86966F1B42E8D64AB65A55 /* Pods_Vitality.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1F6C22024A182A500CC4E8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E16AD4E3249C8F2700BEF638 /* LoginController.swift */,
+				E1F6C22124A19BF400CC4E8A /* LibraryCollectionViewController.swift */,
+				E1F6C22324A1A3F200CC4E8A /* CardCollectionViewCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,8 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16AD4E4249C8F2700BEF638 /* ViewController.swift in Sources */,
+				E1F6C22224A19BF400CC4E8A /* LibraryCollectionViewController.swift in Sources */,
+				E16AD4E4249C8F2700BEF638 /* LoginController.swift in Sources */,
 				E16AD4E2249C8F2700BEF638 /* AppDelegate.swift in Sources */,
+				E1F6C22424A1A3F200CC4E8A /* CardCollectionViewCell.swift in Sources */,
 				E16AD4EA249C8F2700BEF638 /* Vitality.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -351,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
