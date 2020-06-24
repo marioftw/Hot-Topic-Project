@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		443A9F6FC281E055FC52C97D /* Pods_Vitality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B86966F1B42E8D64AB65A55 /* Pods_Vitality.framework */; };
+		B1508B9524A1CB3200A449DA /* Food_Tracker in Resources */ = {isa = PBXBuildFile; fileRef = B1508B9324A1CB3200A449DA /* Food_Tracker */; };
+		B1508B9624A1CB3200A449DA /* MedicationTracker in Resources */ = {isa = PBXBuildFile; fileRef = B1508B9424A1CB3200A449DA /* MedicationTracker */; };
 		E16AD4E2249C8F2700BEF638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */; };
 		E16AD4E4249C8F2700BEF638 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E3249C8F2700BEF638 /* LoginController.swift */; };
 		E16AD4E7249C8F2700BEF638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16AD4E5249C8F2700BEF638 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 /* Begin PBXFileReference section */
 		2B86966F1B42E8D64AB65A55 /* Pods_Vitality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vitality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A9477AF26381CB5ED90745 /* Pods-Vitality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitality.debug.xcconfig"; path = "Target Support Files/Pods-Vitality/Pods-Vitality.debug.xcconfig"; sourceTree = "<group>"; };
+		B1508B9324A1CB3200A449DA /* Food_Tracker */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Food_Tracker; path = ../../../Downloads/Vitality_App/Food_Tracker; sourceTree = "<group>"; };
+		B1508B9424A1CB3200A449DA /* MedicationTracker */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MedicationTracker; path = ../../../Downloads/Vitality_App/MedicationTracker; sourceTree = "<group>"; };
 		E150A0BDE89F6F48FAB2BEF6 /* Pods-Vitality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitality.release.xcconfig"; path = "Target Support Files/Pods-Vitality/Pods-Vitality.release.xcconfig"; sourceTree = "<group>"; };
 		E16AD4DE249C8F2700BEF638 /* Vitality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vitality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 		E16AD4E0249C8F2700BEF638 /* Vitality */ = {
 			isa = PBXGroup;
 			children = (
+				B1508B9324A1CB3200A449DA /* Food_Tracker */,
+				B1508B9424A1CB3200A449DA /* MedicationTracker */,
 				E1F6C22024A182A500CC4E8A /* Controllers */,
 				E18CAC9524A1032F00B157BD /* Storyboards */,
 				E1CE634A249D1C5000DB918D /* Vitality.entitlements */,
@@ -185,7 +191,9 @@
 			files = (
 				E16AD4EF249C8F3100BEF638 /* LaunchScreen.storyboard in Resources */,
 				E16AD4EC249C8F3100BEF638 /* Assets.xcassets in Resources */,
+				B1508B9624A1CB3200A449DA /* MedicationTracker in Resources */,
 				E16AD4E7249C8F2700BEF638 /* Main.storyboard in Resources */,
+				B1508B9524A1CB3200A449DA /* Food_Tracker in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
