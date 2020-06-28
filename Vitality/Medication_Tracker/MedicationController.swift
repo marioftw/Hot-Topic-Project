@@ -1,9 +1,9 @@
 //
 //  MedicationController.swift
-//  MedicationTracker
+//  Vitality
 //
-//  Created by admin on 9/24/19.
-//  Copyright © 2019 admin. All rights reserved.
+//  Created by Simran Deo on 19/06/20.
+//  Copyright © 2020 Mario & Simran. All rights reserved.
 //
 
 import Foundation

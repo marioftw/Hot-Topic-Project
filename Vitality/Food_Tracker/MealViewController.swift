@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  food-tracker-app
+//  Vitality
 //
-//  Created by Dipansh Khandelwal on 19/10/19.
-//  Copyright © 2019 DipanshKhandelwal. All rights reserved.
+//  Created by Simran Deo on 21/06/20.
+//  Copyright © 2020 Mario & Simran. All rights reserved.
 //
 
 import UIKit
