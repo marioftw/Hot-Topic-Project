@@ -15,6 +15,10 @@
 		B1185B0524A8969500D7EFC8 /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B0124A8969500D7EFC8 /* MedicationDetailViewController.swift */; };
 		B1185B0624A8969500D7EFC8 /* AddMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B0224A8969500D7EFC8 /* AddMedicationViewController.swift */; };
 		B1185B0724A8969500D7EFC8 /* MedicationCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B0324A8969500D7EFC8 /* MedicationCollectionViewController.swift */; };
+		B1185B1424A8A36D00D7EFC8 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B1024A8A36D00D7EFC8 /* MealTableViewCell.swift */; };
+		B1185B1524A8A36D00D7EFC8 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B1124A8A36D00D7EFC8 /* Meal.swift */; };
+		B1185B1624A8A36D00D7EFC8 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B1224A8A36D00D7EFC8 /* MealViewController.swift */; };
+		B1185B1724A8A36D00D7EFC8 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B1324A8A36D00D7EFC8 /* MealTableViewController.swift */; };
 		E16AD4E2249C8F2700BEF638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */; };
 		E16AD4E4249C8F2700BEF638 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E3249C8F2700BEF638 /* LoginController.swift */; };
 		E16AD4E7249C8F2700BEF638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16AD4E5249C8F2700BEF638 /* Main.storyboard */; };
@@ -30,10 +34,6 @@
 /* Begin PBXFileReference section */
 		2B86966F1B42E8D64AB65A55 /* Pods_Vitality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vitality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A9477AF26381CB5ED90745 /* Pods-Vitality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitality.debug.xcconfig"; path = "Target Support Files/Pods-Vitality/Pods-Vitality.debug.xcconfig"; sourceTree = "<group>"; };
-		B1185AE024A8938B00D7EFC8 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MealTableViewController.swift; path = "../../../Mobile/food-tracker-app-master/food-tracker-app/MealTableViewController.swift"; sourceTree = "<group>"; };
-		B1185AE124A8938B00D7EFC8 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MealViewController.swift; path = "../../../Mobile/food-tracker-app-master/food-tracker-app/MealViewController.swift"; sourceTree = "<group>"; };
-		B1185AE224A8938B00D7EFC8 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Meal.swift; path = "../../../Mobile/food-tracker-app-master/food-tracker-app/Meal.swift"; sourceTree = "<group>"; };
-		B1185AE324A8938B00D7EFC8 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MealTableViewCell.swift; path = "../../../Mobile/food-tracker-app-master/food-tracker-app/MealTableViewCell.swift"; sourceTree = "<group>"; };
 		B1185AFA24A8966600D7EFC8 /* MedicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationController.swift; sourceTree = "<group>"; };
 		B1185AFB24A8966600D7EFC8 /* EditMedicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMedicationViewController.swift; sourceTree = "<group>"; };
 		B1185AFC24A8966600D7EFC8 /* MedicationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationModel.swift; sourceTree = "<group>"; };
@@ -41,6 +41,10 @@
 		B1185B0124A8969500D7EFC8 /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
 		B1185B0224A8969500D7EFC8 /* AddMedicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMedicationViewController.swift; sourceTree = "<group>"; };
 		B1185B0324A8969500D7EFC8 /* MedicationCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationCollectionViewController.swift; sourceTree = "<group>"; };
+		B1185B1024A8A36D00D7EFC8 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		B1185B1124A8A36D00D7EFC8 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		B1185B1224A8A36D00D7EFC8 /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		B1185B1324A8A36D00D7EFC8 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		E150A0BDE89F6F48FAB2BEF6 /* Pods-Vitality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitality.release.xcconfig"; path = "Target Support Files/Pods-Vitality/Pods-Vitality.release.xcconfig"; sourceTree = "<group>"; };
 		E16AD4DE249C8F2700BEF638 /* Vitality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vitality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,10 +89,10 @@
 		B1185ADF24A8932300D7EFC8 /* Food_Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				B1185AE224A8938B00D7EFC8 /* Meal.swift */,
-				B1185AE324A8938B00D7EFC8 /* MealTableViewCell.swift */,
-				B1185AE024A8938B00D7EFC8 /* MealTableViewController.swift */,
-				B1185AE124A8938B00D7EFC8 /* MealViewController.swift */,
+				B1185B1124A8A36D00D7EFC8 /* Meal.swift */,
+				B1185B1024A8A36D00D7EFC8 /* MealTableViewCell.swift */,
+				B1185B1324A8A36D00D7EFC8 /* MealTableViewController.swift */,
+				B1185B1224A8A36D00D7EFC8 /* MealViewController.swift */,
 			);
 			path = Food_Tracker;
 			sourceTree = "<group>";
@@ -291,7 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1185B1424A8A36D00D7EFC8 /* MealTableViewCell.swift in Sources */,
 				B1185B0524A8969500D7EFC8 /* MedicationDetailViewController.swift in Sources */,
+				B1185B1524A8A36D00D7EFC8 /* Meal.swift in Sources */,
 				B1185B0624A8969500D7EFC8 /* AddMedicationViewController.swift in Sources */,
 				E1F6C22224A19BF400CC4E8A /* LibraryCollectionViewController.swift in Sources */,
 				B1185B0724A8969500D7EFC8 /* MedicationCollectionViewController.swift in Sources */,
@@ -300,8 +306,10 @@
 				E16AD4E2249C8F2700BEF638 /* AppDelegate.swift in Sources */,
 				B1185B0424A8969500D7EFC8 /* MedicationCollectionViewCell.swift in Sources */,
 				B1185AFE24A8966600D7EFC8 /* EditMedicationViewController.swift in Sources */,
+				B1185B1624A8A36D00D7EFC8 /* MealViewController.swift in Sources */,
 				E1F6C22424A1A3F200CC4E8A /* CardCollectionViewCell.swift in Sources */,
 				B1185AFF24A8966600D7EFC8 /* MedicationModel.swift in Sources */,
+				B1185B1724A8A36D00D7EFC8 /* MealTableViewController.swift in Sources */,
 				E16AD4EA249C8F2700BEF638 /* Vitality.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
