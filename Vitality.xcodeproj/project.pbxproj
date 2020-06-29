@@ -17,6 +17,10 @@
 		B1185B0724A8969500D7EFC8 /* MedicationCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B0324A8969500D7EFC8 /* MedicationCollectionViewController.swift */; };
 		B1185B4624A9ACDB00D7EFC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B4324A9ACDB00D7EFC8 /* ViewController.swift */; };
 		B1185B4724A9ACDB00D7EFC8 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B4424A9ACDB00D7EFC8 /* CategoryTableViewController.swift */; };
+		B1185B4B24A9B7C900D7EFC8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B4A24A9B7C900D7EFC8 /* Util.swift */; };
+		B1185B4D24A9B82200D7EFC8 /* CustomActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B4C24A9B82200D7EFC8 /* CustomActivityViewController.swift */; };
+		B1185B4F24A9B84600D7EFC8 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B4E24A9B84600D7EFC8 /* OptionsViewController.swift */; };
+		B1185B5124A9B9CC00D7EFC8 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B5024A9B9CC00D7EFC8 /* MenuTableViewCell.swift */; };
 		E16AD4E2249C8F2700BEF638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */; };
 		E16AD4E4249C8F2700BEF638 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E3249C8F2700BEF638 /* LoginController.swift */; };
 		E16AD4E7249C8F2700BEF638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16AD4E5249C8F2700BEF638 /* Main.storyboard */; };
@@ -45,6 +49,10 @@
 		B1185B2024A946CD00D7EFC8 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		B1185B4324A9ACDB00D7EFC8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1185B4424A9ACDB00D7EFC8 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		B1185B4A24A9B7C900D7EFC8 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		B1185B4C24A9B82200D7EFC8 /* CustomActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomActivityViewController.swift; sourceTree = "<group>"; };
+		B1185B4E24A9B84600D7EFC8 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		B1185B5024A9B9CC00D7EFC8 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		E150A0BDE89F6F48FAB2BEF6 /* Pods-Vitality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitality.release.xcconfig"; path = "Target Support Files/Pods-Vitality/Pods-Vitality.release.xcconfig"; sourceTree = "<group>"; };
 		E16AD4DE249C8F2700BEF638 /* Vitality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vitality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +165,10 @@
 				E16AD4EB249C8F3100BEF638 /* Assets.xcassets */,
 				E16AD4F0249C8F3100BEF638 /* Info.plist */,
 				E16AD4E8249C8F2700BEF638 /* Vitality.xcdatamodeld */,
+				B1185B4A24A9B7C900D7EFC8 /* Util.swift */,
+				B1185B4C24A9B82200D7EFC8 /* CustomActivityViewController.swift */,
+				B1185B4E24A9B84600D7EFC8 /* OptionsViewController.swift */,
+				B1185B5024A9B9CC00D7EFC8 /* MenuTableViewCell.swift */,
 			);
 			path = Vitality;
 			sourceTree = "<group>";
@@ -309,13 +321,17 @@
 				B1185B0624A8969500D7EFC8 /* AddMedicationViewController.swift in Sources */,
 				B1185B4724A9ACDB00D7EFC8 /* CategoryTableViewController.swift in Sources */,
 				E1F6C22224A19BF400CC4E8A /* LibraryCollectionViewController.swift in Sources */,
+				B1185B4D24A9B82200D7EFC8 /* CustomActivityViewController.swift in Sources */,
 				B1185B4624A9ACDB00D7EFC8 /* ViewController.swift in Sources */,
+				B1185B4F24A9B84600D7EFC8 /* OptionsViewController.swift in Sources */,
 				B1185B0724A8969500D7EFC8 /* MedicationCollectionViewController.swift in Sources */,
 				E16AD4E4249C8F2700BEF638 /* LoginController.swift in Sources */,
+				B1185B4B24A9B7C900D7EFC8 /* Util.swift in Sources */,
 				B1185AFD24A8966600D7EFC8 /* MedicationController.swift in Sources */,
 				E16AD4E2249C8F2700BEF638 /* AppDelegate.swift in Sources */,
 				B1185B0424A8969500D7EFC8 /* MedicationCollectionViewCell.swift in Sources */,
 				B1185AFE24A8966600D7EFC8 /* EditMedicationViewController.swift in Sources */,
+				B1185B5124A9B9CC00D7EFC8 /* MenuTableViewCell.swift in Sources */,
 				E1F6C22424A1A3F200CC4E8A /* CardCollectionViewCell.swift in Sources */,
 				B1185AFF24A8966600D7EFC8 /* MedicationModel.swift in Sources */,
 				E16AD4EA249C8F2700BEF638 /* Vitality.xcdatamodeld in Sources */,

@@ -39,8 +39,6 @@ class CategoryTableViewController: UITableViewController {
             
             self.categoryArray.append(newCategory)
             self.saveItems()
-            //    self.itemArray.append(textField.text!)
-            //            self.tableView.reloadData()
             
         }
         alert.addTextField { (alertTextField) in

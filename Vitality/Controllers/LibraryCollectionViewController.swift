@@ -30,7 +30,7 @@ class LibraryCollectionViewController: UICollectionViewController, UICollectionV
         return sections
     }
     
-    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CardCell", for: indexPath) as! CardCollectionViewCell
             cell.titleLabel.text = self.titles[indexPath.row]
             cell.descriptionLabel.text = self.descriptions[indexPath.row]

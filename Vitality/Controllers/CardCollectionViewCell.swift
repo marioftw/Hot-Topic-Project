@@ -6,10 +6,11 @@
 //  Copyright © 2020 Mario & Simran. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class CardCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var gradientView: GradientView!
-    @IBOutlet weak var titleLable: UILabel!
+    @IBOutlet weak var iconImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
 }
