@@ -15,6 +15,8 @@
 		B1185B0524A8969500D7EFC8 /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B0124A8969500D7EFC8 /* MedicationDetailViewController.swift */; };
 		B1185B0624A8969500D7EFC8 /* AddMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B0224A8969500D7EFC8 /* AddMedicationViewController.swift */; };
 		B1185B0724A8969500D7EFC8 /* MedicationCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B0324A8969500D7EFC8 /* MedicationCollectionViewController.swift */; };
+		B1185B4624A9ACDB00D7EFC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B4324A9ACDB00D7EFC8 /* ViewController.swift */; };
+		B1185B4724A9ACDB00D7EFC8 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B4424A9ACDB00D7EFC8 /* CategoryTableViewController.swift */; };
 		E16AD4E2249C8F2700BEF638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */; };
 		E16AD4E4249C8F2700BEF638 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E3249C8F2700BEF638 /* LoginController.swift */; };
 		E16AD4E7249C8F2700BEF638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16AD4E5249C8F2700BEF638 /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 		B1185B1E24A946CD00D7EFC8 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		B1185B1F24A946CD00D7EFC8 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		B1185B2024A946CD00D7EFC8 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		B1185B4324A9ACDB00D7EFC8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1185B4424A9ACDB00D7EFC8 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		E150A0BDE89F6F48FAB2BEF6 /* Pods-Vitality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitality.release.xcconfig"; path = "Target Support Files/Pods-Vitality/Pods-Vitality.release.xcconfig"; sourceTree = "<group>"; };
 		E16AD4DE249C8F2700BEF638 /* Vitality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vitality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +108,15 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		B1185B2124A988A700D7EFC8 /* To_Do_List */ = {
+			isa = PBXGroup;
+			children = (
+				B1185B4424A9ACDB00D7EFC8 /* CategoryTableViewController.swift */,
+				B1185B4324A9ACDB00D7EFC8 /* ViewController.swift */,
+			);
+			path = To_Do_List;
+			sourceTree = "<group>";
+		};
 		D5DD9215C64A2B2874C344F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +147,7 @@
 		E16AD4E0249C8F2700BEF638 /* Vitality */ = {
 			isa = PBXGroup;
 			children = (
+				B1185B2124A988A700D7EFC8 /* To_Do_List */,
 				B1185ADF24A8932300D7EFC8 /* Food_Tracker */,
 				B1185AD824A8928F00D7EFC8 /* Medication_Tracker */,
 				E1F6C22024A182A500CC4E8A /* Controllers */,
@@ -293,7 +307,9 @@
 			files = (
 				B1185B0524A8969500D7EFC8 /* MedicationDetailViewController.swift in Sources */,
 				B1185B0624A8969500D7EFC8 /* AddMedicationViewController.swift in Sources */,
+				B1185B4724A9ACDB00D7EFC8 /* CategoryTableViewController.swift in Sources */,
 				E1F6C22224A19BF400CC4E8A /* LibraryCollectionViewController.swift in Sources */,
+				B1185B4624A9ACDB00D7EFC8 /* ViewController.swift in Sources */,
 				B1185B0724A8969500D7EFC8 /* MedicationCollectionViewController.swift in Sources */,
 				E16AD4E4249C8F2700BEF638 /* LoginController.swift in Sources */,
 				B1185AFD24A8966600D7EFC8 /* MedicationController.swift in Sources */,
