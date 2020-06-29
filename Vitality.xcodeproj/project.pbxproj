@@ -165,10 +165,6 @@
 				E16AD4EB249C8F3100BEF638 /* Assets.xcassets */,
 				E16AD4F0249C8F3100BEF638 /* Info.plist */,
 				E16AD4E8249C8F2700BEF638 /* Vitality.xcdatamodeld */,
-				B1185B4A24A9B7C900D7EFC8 /* Util.swift */,
-				B1185B4C24A9B82200D7EFC8 /* CustomActivityViewController.swift */,
-				B1185B4E24A9B84600D7EFC8 /* OptionsViewController.swift */,
-				B1185B5024A9B9CC00D7EFC8 /* MenuTableViewCell.swift */,
 			);
 			path = Vitality;
 			sourceTree = "<group>";
@@ -195,6 +191,10 @@
 		E1F6C22024A182A500CC4E8A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B1185B4A24A9B7C900D7EFC8 /* Util.swift */,
+				B1185B4C24A9B82200D7EFC8 /* CustomActivityViewController.swift */,
+				B1185B4E24A9B84600D7EFC8 /* OptionsViewController.swift */,
+				B1185B5024A9B9CC00D7EFC8 /* MenuTableViewCell.swift */,
 				E16AD4E3249C8F2700BEF638 /* LoginController.swift */,
 				E1F6C22124A19BF400CC4E8A /* LibraryCollectionViewController.swift */,
 				E1F6C22324A1A3F200CC4E8A /* CardCollectionViewCell.swift */,
