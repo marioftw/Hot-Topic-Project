@@ -17,8 +17,10 @@ class CategoryTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         loadItems()
-
+        
+        
     }
+    
     
     //MARK: - ADD NEW CATEGORY
 
