@@ -1,9 +1,9 @@
 //
 //  DataModel.swift
-//  WorkoutDiary
+//  Vitality
 //
-//  Created by Martin Rist on 15/10/2019.
-//  Copyright © 2019 Martin Rist. All rights reserved.
+//  Created by Simran on 2/07/20.
+//  Copyright © 2020 Mario & Simran. All rights reserved.
 //
 
 import Foundation
