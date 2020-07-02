@@ -26,8 +26,8 @@
 		B1185B7E24AD56D000D7EFC8 /* ExerciseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B7A24AD56D000D7EFC8 /* ExerciseDetailViewController.swift */; };
 		B1185B7F24AD56D000D7EFC8 /* RoutineListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B7B24AD56D000D7EFC8 /* RoutineListViewController.swift */; };
 		B1185B8324AD56E500D7EFC8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B8024AD56E500D7EFC8 /* DataModel.swift */; };
-		B1185B8424AD56E500D7EFC8 /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B8124AD56E500D7EFC8 /* Routine.swift */; };
 		B1185B8524AD56E500D7EFC8 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B8224AD56E500D7EFC8 /* Exercise.swift */; };
+		B1185B8924AD5E1200D7EFC8 /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185B8824AD5E1200D7EFC8 /* Routine.swift */; };
 		E16AD4E2249C8F2700BEF638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */; };
 		E16AD4E4249C8F2700BEF638 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AD4E3249C8F2700BEF638 /* LoginController.swift */; };
 		E16AD4E7249C8F2700BEF638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16AD4E5249C8F2700BEF638 /* Main.storyboard */; };
@@ -65,8 +65,8 @@
 		B1185B7A24AD56D000D7EFC8 /* ExerciseDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewController.swift; sourceTree = "<group>"; };
 		B1185B7B24AD56D000D7EFC8 /* RoutineListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutineListViewController.swift; sourceTree = "<group>"; };
 		B1185B8024AD56E500D7EFC8 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		B1185B8124AD56E500D7EFC8 /* Routine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
 		B1185B8224AD56E500D7EFC8 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		B1185B8824AD5E1200D7EFC8 /* Routine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
 		E150A0BDE89F6F48FAB2BEF6 /* Pods-Vitality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitality.release.xcconfig"; path = "Target Support Files/Pods-Vitality/Pods-Vitality.release.xcconfig"; sourceTree = "<group>"; };
 		E16AD4DE249C8F2700BEF638 /* Vitality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vitality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16AD4E1249C8F2700BEF638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 				B1185B7A24AD56D000D7EFC8 /* ExerciseDetailViewController.swift */,
 				B1185B8024AD56E500D7EFC8 /* DataModel.swift */,
 				B1185B8224AD56E500D7EFC8 /* Exercise.swift */,
-				B1185B8124AD56E500D7EFC8 /* Routine.swift */,
+				B1185B8824AD5E1200D7EFC8 /* Routine.swift */,
 			);
 			path = Exercise_Tracker;
 			sourceTree = "<group>";
@@ -356,12 +356,12 @@
 				B1185B0724A8969500D7EFC8 /* MedicationCollectionViewController.swift in Sources */,
 				E16AD4E4249C8F2700BEF638 /* LoginController.swift in Sources */,
 				B1185B4B24A9B7C900D7EFC8 /* Util.swift in Sources */,
+				B1185B8924AD5E1200D7EFC8 /* Routine.swift in Sources */,
 				B1185B8524AD56E500D7EFC8 /* Exercise.swift in Sources */,
 				B1185AFD24A8966600D7EFC8 /* MedicationController.swift in Sources */,
 				E16AD4E2249C8F2700BEF638 /* AppDelegate.swift in Sources */,
 				B1185B0424A8969500D7EFC8 /* MedicationCollectionViewCell.swift in Sources */,
 				B1185B7F24AD56D000D7EFC8 /* RoutineListViewController.swift in Sources */,
-				B1185B8424AD56E500D7EFC8 /* Routine.swift in Sources */,
 				B1185AFE24A8966600D7EFC8 /* EditMedicationViewController.swift in Sources */,
 				B1185B5124A9B9CC00D7EFC8 /* MenuTableViewCell.swift in Sources */,
 				E1F6C22424A1A3F200CC4E8A /* CardCollectionViewCell.swift in Sources */,
