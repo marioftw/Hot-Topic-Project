@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IaJ-pe-tfe">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Messaging View Controller-->
+        <scene sceneID="9r2-tS-NaQ">
+            <objects>
+                <viewController id="qjb-aS-eCW" customClass="MessagingViewController" customModule="Vitality" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bRd-Vm-evJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1jB-qz-OSa">
+                                <rect key="frame" x="0.0" y="802" width="414" height="60"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aPn-gv-p34">
+                                        <rect key="frame" x="20" y="10" width="374" height="40"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eZv-Br-GyK">
+                                                <rect key="frame" x="0.0" y="0.0" width="314" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="3yV-oW-IPq"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgx-OS-SmM">
+                                                <rect key="frame" x="334" y="0.0" width="40" height="40"/>
+                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="PxL-dX-TDv"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="ZRb-Iv-G5j"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="fwF-gq-tq4"/>
+                                                    <constraint firstAttribute="width" constant="40" id="jGC-Yv-bNV"/>
+                                                </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="paperplane" catalog="system"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="sendButton:" destination="qjb-aS-eCW" eventType="touchUpInside" id="MSm-Cu-jKb"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="aPn-gv-p34" firstAttribute="leading" secondItem="1jB-qz-OSa" secondAttribute="leading" constant="20" id="0md-Yn-iNv"/>
+                                    <constraint firstAttribute="trailing" secondItem="aPn-gv-p34" secondAttribute="trailing" constant="20" id="bQr-Nj-rY5"/>
+                                    <constraint firstAttribute="height" constant="60" id="rZT-CJ-3ZT"/>
+                                    <constraint firstItem="aPn-gv-p34" firstAttribute="centerY" secondItem="1jB-qz-OSa" secondAttribute="centerY" id="zBd-MY-ejD"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2cp-o7-pcq">
+                                <rect key="frame" x="0.0" y="44" width="414" height="758"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2cp-o7-pcq" firstAttribute="top" secondItem="hcn-CW-3Dq" secondAttribute="top" id="3y1-eV-aMG"/>
+                            <constraint firstItem="1jB-qz-OSa" firstAttribute="trailing" secondItem="hcn-CW-3Dq" secondAttribute="trailing" id="Djn-9U-uOV"/>
+                            <constraint firstItem="1jB-qz-OSa" firstAttribute="bottom" secondItem="hcn-CW-3Dq" secondAttribute="bottom" id="HYa-6Z-U1T"/>
+                            <constraint firstItem="1jB-qz-OSa" firstAttribute="leading" secondItem="hcn-CW-3Dq" secondAttribute="leading" id="RCq-qs-HRV"/>
+                            <constraint firstItem="1jB-qz-OSa" firstAttribute="top" secondItem="2cp-o7-pcq" secondAttribute="bottom" id="V8k-4g-zQm"/>
+                            <constraint firstItem="2cp-o7-pcq" firstAttribute="trailing" secondItem="hcn-CW-3Dq" secondAttribute="trailing" id="bK2-x8-8fb"/>
+                            <constraint firstItem="2cp-o7-pcq" firstAttribute="leading" secondItem="hcn-CW-3Dq" secondAttribute="leading" id="u8w-77-a4F"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hcn-CW-3Dq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9e6-32-awA"/>
+                    <connections>
+                        <outlet property="messageTableView" destination="2cp-o7-pcq" id="z02-zP-my1"/>
+                        <outlet property="messageTextField" destination="eZv-Br-GyK" id="mtb-jr-m5K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7KT-sb-laC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1139.1304347826087" y="137.94642857142856"/>
+        </scene>
+        <!--Messages Navigation Controller-->
+        <scene sceneID="Y9Z-g4-63W">
+            <objects>
+                <navigationController title="Messages Navigation Controller" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="IaJ-pe-tfe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Messages" image="message.fill" catalog="system" id="nkz-8d-j47"/>
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="gKj-PI-MeN">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g9j-bu-JpU">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="qjb-aS-eCW" kind="relationship" relationship="rootViewController" id="oNk-8b-HYA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w4D-yB-S3h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228.98550724637684" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="message.fill" catalog="system" width="128" height="113"/>
+        <image name="paperplane" catalog="system" width="128" height="121"/>
+    </resources>
+</document>
